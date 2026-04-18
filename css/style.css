@@ -1,1 +1,59 @@
-/* code here */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Color+Emoji&display=swap');
+
+:root {
+  --textOn-accent1: #ffffff;
+  --text-headline: #000000;
+  --text-paragraph: #6f6f6f;
+  --text-captions: #485c11;
+  --text-link: #000000;
+  --accent-1: #485c11;
+  --accent-2: #dfecc6;
+  --accent-3: #8e9c78;
+  --accent-4: #000000;
+  --accent-5: #6f6f6f;
+  --accent-6: #929292;
+}
+
+body {
+  margin: 0px 40px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 72px;
+}
+
+#navbar {
+  display: flex;
+  gap: 27px;
+  padding: 20px 24px;
+}
+
+#navbar li {
+  list-style: none;
+}
+
+#navbar li a {
+  text-decoration: none;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  color: var(--text-link);
+}
+
+.cta {
+  padding: 14px 22px;
+  border-radius: 999px;
+  border: none;
+  background-color: var(--accent-1);
+  color: var(--textOn-accent1);
+  height: fit-content;
+  transition: ease-in-out;
+  transition-duration: 300ms;
+}
+
+.cta:hover {
+  background-color: var(--accent-3);
+}
