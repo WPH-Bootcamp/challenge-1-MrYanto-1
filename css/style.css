@@ -182,6 +182,9 @@ header {
 h1 {
   font-size: 160px;
 }
+p {
+  font-family: 'DM-Sans', 'sans-serif';
+}
 
 #hero {
   display: flex;
@@ -207,4 +210,30 @@ h1 {
 
 #ipad {
   position: absolute;
+  z-index: 0;
+}
+
+#logoCloud {
+  display: flex;
+  position: relative;
+  width: 100%;
+  flex-direction: column;
+  padding: 50px 0px;
+  gap: 30px;
+  background-color: #ffffff;
+  z-index: 2;
+}
+
+#logoCloud p {
+  font-size: 15px;
+  color: var(--text-paragraph);
+}
+
+#logoImages img {
+  padding: 20px;
+}
+
+#logoImages {
+  display: flex;
+  justify-content: space-evenly;
 }
