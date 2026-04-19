@@ -157,6 +157,13 @@ h3 {
   font-size: 18px;
 }
 
+h4 {
+  font-family: 'DM Sans', 'sans-serif';
+  color: var(--accent-6);
+  line-height: 100%;
+  font-size: 80px;
+}
+
 h6 {
   font-family: 'DM Sans', 'sans-serif';
   color: var(--text-captions);
@@ -334,6 +341,9 @@ header {
   border-radius: 999px;
   border: none;
   width: fit-content;
+  height: fit-content;
+  line-height: 140%;
+  font-size: 14px;
   padding: 14px 22px;
   transition: ease-in-out;
   transition-duration: 300ms;
@@ -397,4 +407,36 @@ header {
 
 #reviewer p {
   color: var(--text-headline);
+}
+
+#how {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  padding-top: 80px;
+  padding-bottom: 120px;
+}
+
+#howHead {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cardContainerHow {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cardHow {
+  padding: 60px 30px 20px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.captions {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
