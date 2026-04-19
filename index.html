@@ -7,10 +7,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Color+Emoji&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Color+Emoji&family=Roboto+Mono:ital@0;1&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/style.css" />
+    <!-- Figma Reference: https://www.figma.com/site/dNaac2VzrTOnVFYfecchto/Modern-Product-Launch--Community-?node-id=1-1215&t=xKSyliIaHxmrH85T-0 -->
   </head>
   <body>
     <header>
@@ -29,6 +30,7 @@
     </header>
 
     <main>
+      <!-- Hero -->
       <section id="hero">
         <h1>Browse everything</h1>
         <div id="heroImage">
@@ -37,6 +39,7 @@
         </div>
       </section>
 
+      <!-- Logo Cloud -->
       <section id="logoCloud">
         <p>Trusted by:</p>
         <div id="logoImages">
@@ -49,9 +52,10 @@
         </div>
       </section>
 
+      <!-- Benefits 1 -->
       <section class="containerCol">
         <div id="benefits">
-          <div id="text">
+          <div class="headline">
             <h6>Benefits</h6>
             <h2>We've cracked the code.</h2>
             <p>Area provides real insights, without the data overload</p>
@@ -103,6 +107,7 @@
         />
       </section>
 
+      <!-- Benefits 2 -->
       <section class="containerRow">
         <div id="featuresSection">
           <h2>See the Big Picture</h2>
@@ -148,6 +153,160 @@
           alt="A render of three white cylindrical columns, against a warm creme background"
         />
       </section>
+
+      <!-- Specification -->
+      <section id="specifications" class="containerCol">
+        <div class="headline" id="specsHead">
+          <h6>Specs</h6>
+          <h2>Why Choose Area?</h2>
+          <p>
+            You need a solution that keeps up. That’s why we developed Area. A
+            developer-friendly approach to streamline your business.
+          </p>
+          <button class="cta-light">Discover More</button>
+        </div>
+        <div class="table">
+          <!-- Area's Table -->
+          <div class="tableList" id="areasTable">
+            <div class="tableLogo">
+              <img
+                src="./assets/Area.svg"
+                alt="A text that says Area as in the brand"
+              />
+            </div>
+            <!-- Table Cell -->
+            <div class="tableCell">
+              <img
+                src="./assets/icons/GreenCheck icon.svg"
+                alt="A green tick like a checklist"
+              />
+              <p>Ultra-fast browsing</p>
+            </div>
+
+            <div class="tableCell">
+              <img
+                src="./assets/icons/GreenCheck icon.svg"
+                alt="A green tick like a checklist"
+              />
+              <p>Advance AI insights</p>
+            </div>
+            <div class="tableCell">
+              <img
+                src="./assets/icons/GreenCheck icon.svg"
+                alt="A green tick like a checklist"
+              />
+              <p>Seamless integration</p>
+            </div>
+            <div class="tableCell">
+              <img
+                src="./assets/icons/GreenCheck icon.svg"
+                alt="A green tick like a checklist"
+              />
+              <p>Advanced AI insights</p>
+            </div>
+            <div class="tableCell">
+              <img
+                src="./assets/icons/GreenCheck icon.svg"
+                alt="A green tick like a checklist"
+              />
+              <p>Ultra-fast browsing</p>
+            </div>
+            <div class="tableCell">
+              <img
+                src="./assets/icons/GreenCheck icon.svg"
+                alt="A green tick like a checklist"
+              />
+              <p>Full UTF-8 support</p>
+            </div>
+          </div>
+
+          <!-- WebSurge Table -->
+          <div class="tableList">
+            <div class="tableLogo">
+              <img
+                src="./assets/WebSurge.svg"
+                alt="A text that says Area as in the brand"
+              />
+            </div>
+
+            <!-- Table Cell -->
+            <div class="tableCell">
+              <img
+                src="./assets/icons/Check icon.svg"
+                alt="A tick like a checklist"
+              />
+              <p>Fast browsing</p>
+            </div>
+
+            <div class="tableCell">
+              <img
+                src="./assets/icons/Check icon.svg"
+                alt="A tick like a checklist"
+              />
+              <p>Basic AI recommendation</p>
+            </div>
+            <div class="tableCell">
+              <img
+                src="./assets/icons/Check icon.svg"
+                alt="A tick like a checklist"
+              />
+              <p>Restricts customization</p>
+            </div>
+            <div class="tableCell">
+              <img src="./assets/icons/Cross icon.svg" alt="An X cross Icon" />
+              <p>Basic AI insights</p>
+            </div>
+            <div class="tableCell">
+              <img
+                src="./assets/icons/Check icon.svg"
+                alt="A tick like a checklist"
+              />
+              <p>Fast browsing</p>
+            </div>
+            <div class="tableCell">
+              <img src="./assets/icons/Cross icon.svg" alt="An X cross Icon" />
+              <p>Potential display errors</p>
+            </div>
+          </div>
+
+          <div class="tableList">
+            <div class="tableLogo">
+              <img
+                src="./assets/HyperView.svg"
+                alt="A text that says Area as in the brand"
+              />
+            </div>
+
+            <!-- Table Cell -->
+            <div class="tableCell">
+              <img src="./assets/icons/Cross icon.svg" alt="An X cross Icon" />
+              <p>Moderate speeds</p>
+            </div>
+            <div class="tableCell">
+              <img src="./assets/icons/Cross icon.svg" alt="An X cross Icon" />
+              <p>No AI assistance</p>
+            </div>
+            <div class="tableCell">
+              <img src="./assets/icons/Cross icon.svg" alt="An X cross Icon" />
+              <p>Steep learning curve</p>
+            </div>
+            <div class="tableCell">
+              <img src="./assets/icons/Cross icon.svg" alt="An X cross Icon" />
+              <p>No AI assistance</p>
+            </div>
+            <div class="tableCell">
+              <img src="./assets/icons/Cross icon.svg" alt="An X cross Icon" />
+              <p>Moderate speeds</p>
+            </div>
+            <div class="tableCell">
+              <img src="./assets/icons/Cross icon.svg" alt="An X cross Icon" />
+              <p>Partial UTF-8 support</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section></section>
     </main>
   </body>
 </html>
