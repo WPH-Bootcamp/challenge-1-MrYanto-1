@@ -146,7 +146,7 @@ h1 {
   font-size: 160px;
   line-height: 90%;
   font-family: 'Crimson Text', serif;
-  letter-spacing: -5%;  
+  letter-spacing: -5%;
 }
 
 h2 {
@@ -189,13 +189,13 @@ header {
   margin-top: 16px;
 }
 
-#navbar {
+.navbar {
   display: flex;
   gap: 27px;
   padding: 20px 24px;
 }
 
-#navbar li a {
+.navbar li a {
   font-family: 'DM Sans', sans-serif;
   font-weight: bold;
   font-size: 14px;
@@ -456,3 +456,33 @@ header {
 #contact .cta {
   width: 100%;
 }
+
+footer {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+#copyright {
+  display: flex;
+  gap: 40px;
+  align-items: end;
+}
+
+#companyCopy {
+  display: flex;
+  gap: 16px;
+  width: 100%;
+}
+
+footer h6 {
+  font-family: 'Roboto Mono', monospace;
+}
+
+#copyright > h6 {
+  width: fit-content;
+}
+
+/* Notes for myself: next time observe the design system first then build the repetitive design like the container, button, cards, etc so I won't go back and forth searching or change from id to classes */
