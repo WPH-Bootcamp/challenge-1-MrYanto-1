@@ -362,7 +362,6 @@ header {
 .table {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(7, 1fr);
 }
 
 .tableLogo {
@@ -381,4 +380,21 @@ header {
 #areasTable {
   border-radius: 20px;
   box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.08);
+}
+
+#reviewHead {
+  padding-left: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#reviewer {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+#reviewer p {
+  color: var(--text-headline);
 }
